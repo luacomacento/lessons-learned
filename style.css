@@ -10,7 +10,6 @@ a {
 body {
   margin: 0;
   font-family: Montserrat, sans-serif;
-  height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -51,6 +50,12 @@ body,
   /* box-shadow: 0 10px 15px 4px rgba(167, 167, 167, 0.56); */
   height: calc(100vh - 40px);
   overflow-y: scroll;
+}
+
+@media only screen and (max-width: 768px) {
+  #container {
+    height: 100%;
+  }
 }
 
 .botao-titulo {
