@@ -52,7 +52,7 @@ body,
   overflow-y: scroll;
 }
 
-@media (max-device-width: 768px) {
+@media (max-width: 768px) {
   #container {
     height: 100%;
   }
